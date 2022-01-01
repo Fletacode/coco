@@ -1,0 +1,141 @@
+﻿.chat_body{
+    background-color:#abc1d1;
+    height:1000vh;
+}
+.chat_info_day {
+    display: flex;
+    justify-content: center;
+    margin: 0px 230px;
+    border-radius: 20px;
+    padding: 10px 0px;
+    color: white;
+    opacity: 0.6;
+    background-color: rgb(0, 0, 0,0.2);
+}
+.my_chat_img >img{
+    width:60px;
+    height:60px;
+    border-radius:20px;
+}
+.my_chat{
+    display:flex;
+    padding:20px;
+}
+.firstname{
+    opacity:0.5;
+    display:flex;
+    justify-content:center;
+}
+.talkbox{
+    width:40px;
+    height:40px;
+    background-color:white;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px 0px 0px 15px;
+}
+.secondname{
+    opacity:0.5;
+}
+.date{
+    display:flex;
+    align-items:flex-end;
+    height:50px;
+    opacity:0.5;
+    margin-left:10px;
+    font-size:13px;
+}
+.your_chat{
+    display:flex;
+    justify-content:flex-end;
+}
+.your_date{
+    opacity:0.5;
+    font-size:13px;
+    display:flex;
+    align-items:flex-end;
+}
+.your_box{
+    width:100px;
+    height:30px;
+    background-color:yellow;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0px 10px;
+    border-radius:20px;
+   
+}
+.chat_info_form_bar{
+    position:fixed;
+    bottom:0;
+    margin:0px;
+    width:100%;
+    display:flex;
+    background-color:white;
+    padding:10px;
+    
+}
+.chat_info_form_bar >i{
+    width:5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    opacity:0.5;
+}
+.chat_info_form_bar_righticons{
+    width:90%;
+}
+@keyframes scale-up-left {
+    0% {
+        transform:translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-30px);
+    }
+}
+@keyframes fadeIn {
+    from {
+        
+        opacity: 0;
+    }
+
+    to {
+        
+        opacity: 1;
+    }
+}
+
+.chat_info_form_bar_righticons_input {
+    width: 100%;
+    background-color: rgb(188, 183, 183,0.3);
+    border-radius: 20px;
+    position: relative;
+    
+}
+.chat_info_form_bar_righticons_input:focus-within{
+    animation:scale-up-left 0.3s linear forwards;
+    
+}
+.chat_info_form_bar_righticons_input:focus-within .lefticon{
+    opacity:0;
+}
+
+.chat_info_form_bar_righticons > i {
+    position: absolute;
+    right: 70px;
+    top: 12px;
+}
+.chat_info_form_bar_righticons >button{
+    position:absolute;
+    right:35px;
+    background-color:yellow;
+    border-radius:1000000%;
+    top:5px;
+   
+    
+}
+

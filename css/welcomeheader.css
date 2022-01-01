@@ -1,0 +1,18 @@
+﻿.header--welcome > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+    .header--welcome > div > span {
+        margin-top: 100px;
+        margin-bottom:50px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .header--welcome > div > p {
+        color: rgb(219, 219, 219);
+        margin: 0px 0px 0px 0px;
+    }

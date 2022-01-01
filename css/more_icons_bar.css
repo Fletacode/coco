@@ -1,0 +1,47 @@
+﻿.more_icons_bar {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    border-bottom: 2px solid rgb(128, 128, 128,0.2);
+}
+.more_icons{
+    display:flex;
+    flex-direction:column;
+}
+.more_icon{
+    display:flex;
+    flex-direction:column;
+    padding:20px 40px;
+    align-items:center;
+    position:relative;
+}
+.more_icon > span{
+    padding:10px 0px;
+}
+.more_icon > p{
+    position:absolute;
+    background-color:tomato;
+    color:tomato;
+    border-radius:50%;
+    padding:5px;
+    right:14px;
+    top:-2px;
+}
+.more_suggestions_icons {
+    display: flex;
+    justify-content:space-evenly;
+}
+.more_suggestions_bar{
+    display:flex;
+    flex-direction:column;
+    margin:20px;
+}
+.more_icon >img{
+    width:73.469px;
+    height:68px;
+}
+.null_block {
+    width: 73.469px;
+    height: 68px;
+    background-color:white;
+}

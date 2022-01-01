@@ -1,0 +1,84 @@
+﻿.setting_bar{
+    display:flex;
+    justify-content:space-between;
+    padding:35px 0px;
+    width:100%;
+    
+}
+.setting_bar >div{
+    width:33%;
+}
+.setting_bar > div:nth-child(3)>i{
+    padding:0px 10px;
+}
+.setting_bar > div:nth-child(3){
+    display:flex;
+    justify-content:flex-end;
+}
+.setting_bar > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+.setting_bar > div:nth-child(1)>i{
+    padding-left:15px;
+} 
+.setting_bar_title{
+    font-size:30px;
+    font-weight:600;
+}
+.setting_bar_icons > i{
+    padding:0px 5px;
+}
+.setting_valuebars{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    margin:30px;
+    
+    justify-content:center;
+}
+.setting_valuebar {
+    padding: 40px;
+    border-bottom: 0.01px solid rgb(15, 1, 1,0.1);
+    width:100%;
+}
+.setting_valuebar > span{
+    font-size:30px;
+    margin-left:10px;
+}
+.setting_subvaluebars {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding: 40px;
+    border-bottom: 0.01px solid rgb(15, 1, 1,0.1);
+}
+.setting_subvaluebar > span {
+    font-size: 30px;
+    margin-left: 10px;
+}
+.setting_subvalue {
+    font-size: 30px;
+    opacity:0.7;
+}
+.setting_subvaluebarmidtop{
+    padding-bottom:50px;
+}
+.setting_valuebarmidbottom{
+    padding-top:80px;
+}
+.setting_valuebar >span[class~="ball"]{
+    background-color:tomato;
+    padding:0px 5px 0px 5px;
+    border-radius:1000%;
+    color:white;
+    font-size:20px;
+    
+}
+.setting_subvaluebar > span[class~="ball"] {
+    background-color: tomato;
+    padding: 0px 5px 0px 5px;
+    border-radius: 1000%;
+    color: white;
+    font-size: 20px;
+}

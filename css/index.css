@@ -1,0 +1,43 @@
+﻿@import"reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=Shizuru&display=swap');
+@import"welcomeheader.css";
+@import"sidebar.css";
+@import"navbar.css";
+@import "loginform.css";
+@import "friend.css";
+@import "friends__profile.css";
+@import "chats.css";
+@import "chats_bars.css";
+@import "find.css";
+@import "findmenu.css";
+@import "more_bar.css";
+@import "more_icons_bar.css";
+@import "setting_bar.css";
+@import "chat_info.css";
+body {
+    font-family: 'Open Sans', sans-serif;
+    height:1000vh;
+   
+}
+.limit_screen{
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    top:0;
+    background-color:yellow;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.limit_screen >span{
+    font-size:32px;
+    font-weight:600;
+}
+@media screen and (max-width:1000px){
+    .limit_screen{
+        display:none;
+    }
+}
+
+
+

@@ -1,0 +1,25 @@
+﻿.more_user_bar{
+    display:flex;
+    justify-content:space-between;
+}
+.more_user_bar_infos{
+    display:flex;
+    align-items:center;
+    margin:20px;
+}
+.more_user_bar_infos >img{
+    height:80px;
+    width:80px;
+    border-radius:20px;
+}.more_user_bar_info{
+     display:flex;
+     flex-direction:column;
+ }
+ .more_user_bar_info > div {
+     padding: 10px 10px 0px 10px;
+ }
+ .more_user_bar_icon{
+     display:flex;
+     align-items:center;
+     padding:20px;
+ }
