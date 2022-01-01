@@ -8,18 +8,19 @@
 
 </head>
 <body>
-    <div class="sider___bar">
-        <div class="sider--bar">
-            <div>
-                <span>NO Service</span>
-                <i class="fas fa-wifi"></i>
-            </div>
-            <span class="sider--bar_clock">18:43</span>
-            <div>
-                <i class="fas fa-lock">11%</i>
-                <i class="fas fa-battery-quarter "></i>
-                <i class="fas fa-bolt"></i>
-            </div>
+    <div class="sider--bar">
+        <div class="sider--bar_wifi">
+            <span>NO Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="sider--bar_clock">
+            <span>18:43</span>
+        </div>
+
+        <div class="sider--bar_battery">
+            <i class="fas fa-lock">11%</i>
+            <i class="fas fa-battery-quarter "></i>
+            <i class="fas fa-bolt"></i>
         </div>
     </div>
     
@@ -34,7 +35,10 @@
 
     <input type="text" placeholder="Email or id" />
     <input type="password" placeholder="Password" />
-    <input type="submit" value="Log In" />
+    <div class="loginbutton">
+        <a href="friends.html"><span>Log In</span></a> 
+    </div>
+   
     <button >Sign Up</button>
     <a href="#">FIND kokoa account or password</a>
 </form>

@@ -41,3 +41,12 @@
     #form--login > input[type~=submit]:focus, button:focus {
         background-color: rgb(232, 227, 227);
     }
+.loginbutton{
+    background-color:yellow;
+    display:flex;
+    width:100%;
+    justify-content:center;
+}
+.loginbutton > a{
+    text-decoration:none;
+}
