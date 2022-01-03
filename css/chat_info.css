@@ -94,7 +94,7 @@
     }
 
     100% {
-        transform: translateX(-30px);
+        transform: translateX(-25px);
     }
 }
 @keyframes fadeIn {
@@ -120,10 +120,15 @@
     animation:scale-up-left 0.3s linear forwards;
     
 }
-.chat_info_form_bar_righticons_input:focus-within .lefticon{
+.chat_info_form_bar:focus-within .lefticon >i {
+    opacity: 0;
+}
+.chat_info_form_bar:focus-within .chat_info_form_bar_righticons > i{
     opacity:0;
 }
-
+.chat_info_form_bar:focus-within .chat_info_form_bar_righticons > button {
+    opacity: 0;
+}
 .chat_info_form_bar_righticons > i {
     position: absolute;
     right: 70px;
